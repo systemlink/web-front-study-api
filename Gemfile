@@ -40,6 +40,7 @@ group :development, :test do
   gem 'pry-doc'
 
   gem 'faker'
+  gem 'rb-fsevent' if `uname` =~ /Darwin/
 end
 
 group :development do

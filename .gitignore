@@ -1,0 +1,16 @@
+### Rails ###
+/log
+/tmp
+.rspec
+*.DS_Store
+
+# Ignore bundler config.
+/.bundle
+
+# vendor
+/vendor
+
+# Ignore Byebug command history file.
+.byebug_history
+
+config/database.yml
